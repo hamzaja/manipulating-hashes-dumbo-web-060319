@@ -9,6 +9,7 @@ def second_challenge
   a = []
 groceries.each {|key , value| a+=value.values_at(0..)}
 
+a
   
 
 end
