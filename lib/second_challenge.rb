@@ -6,7 +6,8 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
   # groceries[:dairy].values_at(0..) + groceries[:vegetable].values_at(0..) +groceries[:meat].values_at(0..) +groceries[:grains].values_at(0..) 
-groceries.each {|key , value| return value.values_at(0..)}
+  a = []
+groceries.each {|key , value| a+=value.values_at(0..)}
 
   
 
